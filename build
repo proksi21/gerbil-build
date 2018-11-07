@@ -420,7 +420,7 @@ cd ..
 
 # Compile and link the executable
 
-echo $C_COMPILE_TO_EXE $LIB_OBJ_FILES *.c
-$C_COMPILE_TO_EXE $LIB_OBJ_FILES *.c
+echo $C_COMPILE_TO_EXE $LIB_OBJ_FILES *.c -lm
+$C_COMPILE_TO_EXE $LIB_OBJ_FILES *.c -lm
 
 #------------------------------------------------------------------------------
